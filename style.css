@@ -135,3 +135,146 @@ footer {
   background: #ddd;
   margin-top: 40px;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  header .logo {
+    font-size: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0 5px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .categorias {
+    padding: 30px 20px;
+  }
+
+  .categorias h2 {
+    font-size: 24px;
+  }
+
+  .categorias .categoria-lista {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .categoria {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .quem-somos {
+    padding: 40px 20px;
+  }
+
+  .quem-somos h2 {
+    font-size: 26px;
+  }
+
+  .quem-somos p {
+    font-size: 16px;
+  }
+
+  .login {
+    padding: 40px 20px;
+  }
+
+  .login h2 {
+    font-size: 24px;
+  }
+
+  .voltar-topo {
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .categorias {
+    padding: 25px 15px;
+  }
+
+  .categoria {
+    padding: 15px;
+  }
+
+  .quem-somos {
+    padding: 30px 15px;
+  }
+
+  .quem-somos h2 {
+    font-size: 22px;
+  }
+
+  .login {
+    padding: 30px 15px;
+  }
+
+  .google-login {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
